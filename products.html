@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+
+
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <img class="header__logo" src="src/img/logo.png" alt="">
+            <div>
+                <h1 class="header__title">Create with Heart</h1>
+                <div class="header__call">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/callback.png"/>
+                    <div class="header__call-text">
+                        <p>Hotline:</p>
+                        <a href="tel:0086-18974715200">0086-18974715200</a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header__nav">
+                <a class="header__nav-link" href="index.html">Home</a>
+                <a class="header__nav-link" href="about.html">About Dajing</a>
+                <a class="header__nav-link header__nav-link_active" href="products.html">Products</a>
+                <a class="header__nav-link" href="servises.html">Service</a>
+                <a class="header__nav-link" href="#">News</a>
+                <a class="header__nav-link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+<main>
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+
+
+    <section class="productPage">
+        <div class="container">
+            <div class="productPage__inner">
+                <div class="productPage__gallery">
+                    <img class="productPage__gallery-mainImg" src="src/img/slider/slide1.jpg" alt="">
+                    <div>
+                        <img class="productPage__gallery-img" src="src/img/slider/slide2.jpg" alt="">
+                        <img class="productPage__gallery-img" src="src/img/slider/slide3.jpg" alt="">
+                        <img class="productPage__gallery-img" src="src/img/slider/slide4.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="productPage__info">
+                    <h2 class="productPage__info-title">Продукт 1 Заголвок</h2>
+                    <p class="productPage__info-text">С другой стороны постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки систем массового участия.</p>
+                    <div class="productPage__info-benefits">
+                        <p class="productPage__info-benefit">Преимущество 1 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur est fugiat quo.</span></p>
+                        <p class="productPage__info-benefit">Преимущество 2 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></p>
+                        <p class="productPage__info-benefit">Преимущество 3 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></p>
+                        <p class="productPage__info-benefit">Преимущество 4 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></p>
+                        <p class="productPage__info-price">Цена 4280$</p>
+                    </div>
+                    <button class="productPage__info-btn">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="products" id="products">
+        <div class="container">
+            <h1 class="heading">our <span>products</span></h1>
+
+            <div class="swiper products-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide1.jpg" alt="">
+                        <h3>M20S</h3>
+                        <button class="btn" data-product="product-1">see details</button>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide2.jpg" alt="img">
+                        <h3>M31S 80TH</h3>
+                        <button class="btn" data-product="product-2">see details</button>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide3.jpg" alt="img">
+                        <h3>M21S</h3>
+                        <button class="btn" data-product="product-3">see details</button>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide4.jpg" alt="img">
+                        <h3>T3+ 57TH</h3>
+                        <button class="btn" data-product="product-4">see details</button>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide2.jpg" alt="img">
+                        <h3>M31S</h3>
+                        <button class="btn" data-product="product-5">see details</button>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img class="products-slider_img" src="./src/img/product/slide1.jpg" alt="">
+                        <h3>M20S</h3>
+                        <button class="btn" data-product="product-6">see details</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="products-preview-container">
+
+        <div class="product-preview" data-target="product-1">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+        <div class="product-preview" data-target="product-2">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+<!--                <div class="stars">-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <span>( 250 )</span>-->
+<!--                </div>-->
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+        <div class="product-preview" data-target="product-3">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+<!--                <div class="stars">-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star-half-alt"></i>-->
+<!--                    <span>( 250 )</span>-->
+<!--                </div>-->
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+        <div class="product-preview" data-target="product-4">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+<!--                <div class="stars">-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <span>( 250 )</span>-->
+<!--                </div>-->
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+        <div class="product-preview" data-target="product-5">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+<!--                <div class="stars">-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star-half-alt"></i>-->
+<!--                    <i class="far fa-star"></i>-->
+<!--                    <span>( 250 )</span>-->
+<!--                </div>-->
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+        <div class="product-preview" data-target="product-6">
+            <div class="fas fa-times"></div>
+            <div class="image">
+                <img src="./src/img/product/slide1.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>nike airmax</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque deserunt iste magni velit? At exercitationem incidunt minus repudiandae veritatis.</p>
+<!--                <div class="stars">-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star"></i>-->
+<!--                    <i class="fas fa-star-half-alt"></i>-->
+<!--                    <span>( 250 )</span>-->
+<!--                </div>-->
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section>
+s
+    </section>
+
+</main>
+
+
+<footer>
+
+</footer>
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!--<script src="src/js/main.js"></script>-->
+<script src="src/js/product.js"></script>
+</body>
+</html>
